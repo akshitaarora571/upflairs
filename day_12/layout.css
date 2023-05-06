@@ -1,0 +1,60 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    color: white;
+}
+.container{
+    /*width: 700px;*/
+   /* height: 800px;*/
+    display: flex;
+    flex-direction: row; /by default flex direction is row/
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   /* gap: 30px; */
+    column-gap: 30px;
+    row-gap: 10px;
+}
+.box{
+   height: 100px;
+   width: 100px;
+   /*padding-top: auto;
+   pa*/
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+    flex-grow: 2;
+}
+
+.green{
+    background-color: green;
+    width: 300px;
+    order: 3;
+
+}
+
+.pink{
+    background-color: pink;
+    order: 4;
+
+}
+
+.cyan{
+    background-color: cyan;
+    height: 200px;
+    flex-grow: 3;
+}
+
+.orange{
+    background-color: orange;
+    order:1;
+}
+
+.purple{
+    background-color: purple;
+}
