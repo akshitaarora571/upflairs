@@ -1,0 +1,10 @@
+.feature{
+    padding: 5px;
+    width: 50px;
+}
+
+.slider_images{
+    width: 100%;
+    height: 500px;
+    object-fit: custom;
+}
